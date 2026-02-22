@@ -13,8 +13,8 @@ const ChatList = () => {
         />
 
         <div className="flex-1 text-sm">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="font-medium">Loomi</h3>
+          <div className="min-w-0 flex items-center justify-between gap-2">
+            <h3 className="font-medium truncate">Loomi</h3>
             <p className="font-medium text-xs text-neutral-500">9:03 AM</p>
           </div>
           <p className="text-primary font-medium">Typing...</p>
@@ -32,7 +32,7 @@ const ChatList = () => {
 
         <div className="flex-1 text-sm">
           <div className="flex items-center justify-between gap-2">
-            <h3 className="font-medium">David Jason</h3>
+            <h3 className="font-medium truncate">David Jason</h3>
             <p className="font-medium text-xs text-neutral-500">3:11 PM</p>
           </div>
           <p>You: Can we talk?</p>
@@ -50,7 +50,7 @@ const ChatList = () => {
 
         <div className="flex-1 text-sm">
           <div className="flex items-center justify-between gap-2">
-            <h3 className="font-medium">Thomas Cooper</h3>
+            <h3 className="font-medium truncate">Thomas Cooper</h3>
             <p className="font-medium text-xs text-neutral-500">Yesterday</p>
           </div>
           <p className="font-medium">See you there then.</p>
@@ -67,8 +67,8 @@ const ChatList = () => {
         />
 
         <div className="flex-1 text-sm">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="font-medium">Jane Doe</h3>
+          <div className="min-w-0 flex items-center justify-between gap-2">
+            <h3 className="font-medium truncate">Jane Doe</h3>
             <p className="font-medium text-xs text-neutral-500">22/11/2025</p>
           </div>
           <p>Yes, come fast</p>
